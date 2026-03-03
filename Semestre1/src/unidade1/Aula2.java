@@ -26,7 +26,7 @@ public class Aula2 {
     }**/
 
 
-        //MÉDIA PONDERADA
+        //MÉDIA PONDERADA - corrigir
 
     public static void main(String[] args) {
         
@@ -34,7 +34,8 @@ public class Aula2 {
         float n2;
         float pf;
         float nEx[] = new float[6];
-        float me;
+        float somaE=0;
+        float mediaE;  
         float media;
 
         System.out.println("nota 1:");
@@ -48,10 +49,17 @@ public class Aula2 {
         pf = sc.nextFloat();
 
         
-        //for(int i; i<nEx)
+        for(int i=0; i<nEx.length; i++){
+            System.out.println("nota do  exercicio "+ (i+1)+":");
+            nEx[i] = sc.nextFloat();
+            somaE = somaE + nEx[i];
+        }
+
+        mediaE = somaE/6;
         
-        //System.out.println("nota do  exercicio "+ i+1+":");
-        //nEx[0] = sc.nextFloat();
+        media = ((n1*0.2f)+(n2*0.3f)+(pf*0.3f)+(mediaE*0.2f));
+
+        System.out.println("Média: "+media);
 
 
 
