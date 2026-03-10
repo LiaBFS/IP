@@ -95,6 +95,19 @@ public class Aula4 {
             num1 -= num2;
             num1 *= num2;
             num1 /= num2;
+            num1 %= num2;
+
+            //texto pra maiusculo
+            String texto ="exemplo";
+            texto = texto.toUpperCase();
+
+            //minusculo
+            texto = texto.toLowerCase();
+
+            String t1="BANANA", t2="banana";
+            boolean verdade = false;
+            verdade = (t1.toLowerCase().equals(t2.toLowerCase()));
+            System.out.println(verdade);
                 
 
         }
