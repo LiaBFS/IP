@@ -1,8 +1,8 @@
-package unidade2.Lista1;
+package unidade2.lista1;
 
 import java.util.Scanner;
 
-public class Uni02Exe14 {
+public class Uni2Exe14 {
 
     public static void main(String[] args) {
         

@@ -1,4 +1,4 @@
-package unidade2.Lista1;
+package unidade2.lista1;
 
 import java.util.Scanner;
 
