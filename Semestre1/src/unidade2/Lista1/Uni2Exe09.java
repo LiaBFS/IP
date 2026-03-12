@@ -16,6 +16,8 @@ public class Uni2Exe09 {
         vR = vD*5.26;
         System.out.println("Valor em Real = "+ vR);
 
+        sc.close();
+
     }
 
 }

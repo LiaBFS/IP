@@ -31,9 +31,9 @@ public class Uni2Exe08 {
         valor2 = sc.nextFloat();
 
         valorT = ((valor1*n1)+(valor2*n2));
-        System.out.println("Total = "+valorT);
+        System.out.println(id1+id2+" / Total = "+valorT);
 
-
+        sc.close();
     }
 
 }

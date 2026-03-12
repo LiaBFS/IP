@@ -26,6 +26,8 @@ public class Uni2Exe12 {
 
         System.out.printf("Distancia: %.4f%n", distancia);
 
+        sc.close();
+
     }
 
 }

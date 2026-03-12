@@ -22,6 +22,8 @@ public class Uni2Exe20 {
             System.out.println("n de dobras impar");
         }
 
+        sc.close();
+
     }
 
 }

@@ -1,6 +1,6 @@
 package unidade3;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Aula4 {
 

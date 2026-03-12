@@ -15,7 +15,7 @@ public class Uni2Exe13 {
         
         System.out.println(tempo + " minutos");
         
-
+        sc.close();
     }
 }
 

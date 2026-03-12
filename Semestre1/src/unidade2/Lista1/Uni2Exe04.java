@@ -15,6 +15,8 @@ public class Uni2Exe04 {
         float media = ((n1*3.5f)+(n2*7.5f))/11;
 
         System.out.println(media);
+        
+        sc.close();
     }
 
 }

@@ -28,6 +28,8 @@ public class Uni2Exe16 {
         float totalL = totalLata + totalG600 + ((float) garrafa2*2);
         System.out.println("Total: "+totalL+"L");
 
+        sc.close();
+
     }
 
 }

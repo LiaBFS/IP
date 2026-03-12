@@ -21,6 +21,8 @@ public class Uni2Exe06 {
         System.out.println(id);
         System.out.printf("%.2f%n", salario);
 
+        sc.close();
+
     }
 
 }

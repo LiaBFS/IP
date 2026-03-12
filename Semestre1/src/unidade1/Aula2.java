@@ -1,6 +1,6 @@
 package unidade1;
 
-import java.util.ArrayList;
+//import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Aula2 {
@@ -61,7 +61,7 @@ public class Aula2 {
 
         System.out.println("Média: "+media);
 
-
+        sc.close();
 
     }
 

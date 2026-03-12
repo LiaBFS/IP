@@ -43,7 +43,7 @@ public class Uni2Exe15 {
         valor = valor % 5;
         
         
-
+        sc.close();
 
 
     }

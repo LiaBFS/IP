@@ -34,7 +34,7 @@ public class Uni2Exe10 {
 
             System.out.println(h+":"+m+":"+s);
 
-
+            sc.close();
     }
 
 

@@ -20,10 +20,10 @@ public class Uni2Exe07 {
 
         double salarioFinal = salario +(totalVendas*0.15);
 
-        System.out.printf("Salário final = %.2f%n", salarioFinal);
+        System.out.printf(nomeVendedor+" / Salário final = %.2f%n", salarioFinal);
 
 
-        
+        sc.close();
 
     }
 

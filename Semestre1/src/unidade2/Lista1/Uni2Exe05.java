@@ -17,6 +17,7 @@ public class Uni2Exe05 {
         int diferenca = (a*b)-(c*d);
 
         System.out.println(diferenca);
+        sc.close();
     }
 
 }

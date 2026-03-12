@@ -31,7 +31,7 @@ public class Uni2Exe17 {
 
         System.out.println("Nome: "+nome+"\nSalario bruto: "+salarioB+"\nSalario líquido: "+salarioL);
 
-
+        sc.close();
 
     }
 

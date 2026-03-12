@@ -19,6 +19,7 @@ public class Uni2Exe03 {
         double area = (Math.pow(raio,2)) *  Math.PI;
 
         System.out.println(area);
+        sc.close();
 
     }
 }

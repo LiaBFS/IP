@@ -18,6 +18,11 @@ public class Uni2Exe19 {
         a = b;
         System.out.println(a);
 
+        c = d;
+        d = c;
+
+        sc.close();
+
     }
 
 }

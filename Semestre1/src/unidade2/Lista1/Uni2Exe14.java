@@ -25,6 +25,8 @@ public class Uni2Exe14 {
         System.out.println(valor/1+ " notas de 1");
         valor = valor % 1;
 
+        sc.close();
+
     }
 
 }

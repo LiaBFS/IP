@@ -19,6 +19,8 @@ public class Uni2Exe18 {
         float valor = azulejos*12.50f;
         System.out.println("valor:"+valor);
 
+        sc.close();
+
     }
 
 }

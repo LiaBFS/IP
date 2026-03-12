@@ -37,6 +37,8 @@ public class Aula1 {
 
         System.out.println("Media = "+ media);
 
+        sc.close();
+
     }
 
 }

@@ -26,6 +26,8 @@ public class Uni2Exe11 {
         System.out.println("área do quadrado que tem lado B: "+quadrado);
         System.out.println("área do retângulo que tem lados A e B: "+retangulo);
 
+        sc.close();
+
     }
 
 }
