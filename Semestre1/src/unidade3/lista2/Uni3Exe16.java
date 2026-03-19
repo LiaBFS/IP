@@ -48,6 +48,8 @@ public class Uni3Exe16 {
         System.out.println("Quantidade de notas de 10 necessárias é: "+exercicio16.notasDez());
         System.out.println("Quantidade de notas de 1 necessárias é: "+exercicio16.notasUm());
 
+        sc.close();
+
     }
 
 }
