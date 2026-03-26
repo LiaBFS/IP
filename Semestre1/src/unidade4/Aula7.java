@@ -21,12 +21,14 @@ public class Aula7 {
 
         if (iM<iL && iM<iZ){
             System.out.println("Marquinhos");
-
+            
         } else if (iL<iM && iL<iZ){
             System.out.println("Luluzinha");
         } else if (iZ<iM && iZ<iL){
             System.out.println("Zezinho");
         }
+
+        sc.close();
 
     }
 
