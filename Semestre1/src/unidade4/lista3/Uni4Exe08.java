@@ -18,6 +18,7 @@ public class Uni4Exe08 {
         } else {
             System.out.println("Consoante");
         }
+        sc.close();
     }
     
 }
