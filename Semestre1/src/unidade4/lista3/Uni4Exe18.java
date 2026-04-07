@@ -25,7 +25,7 @@ public class Uni4Exe18 {
             total = valor;
             System.out.println("O pagamento está em dia. O valor da prestação = R$"+total);
         } else{
-            total = valor + (valor*0.02f);
+            total = valor + (valor*0.02f)*(diaP-diaV);
             System.out.println("O pagamento está atrasado. Multa de 2% por dia de atraso. Valor da prestação = R$"+total);
         }
 

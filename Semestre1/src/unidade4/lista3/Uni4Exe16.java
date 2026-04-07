@@ -15,14 +15,23 @@ public class Uni4Exe16 {
         int m2 = sc.nextInt();
 
         if(h1>h2 && m1>m2){
+
             System.out.println("Soma: "+(h1+m2)+" / Produto: "+(h2*m1));
+
         } else if (h1>h2 && m2>m1){
+
             System.err.println("Soma: "+(h1+m1)+" / Produto: "+(h2*m2));
+
         } else if (h2>h1 && m1>m2){
+
             System.out.println("Soma: "+(h2+m2)+" / Produto: "+(h1*m1));
+
         } else{
+
             System.out.println("Soma: "+(h2+m1)+" / Produto: "+(h1*m2));
+
         }
+        
         sc.close();
     }
     
