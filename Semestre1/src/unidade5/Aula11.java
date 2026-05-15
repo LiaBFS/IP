@@ -15,6 +15,8 @@ public class Aula11 {
             System.out.println("Numero invalido");
             ex.getMessage();
         }
+        System.out.println(n);
+        sc.close();
     }
 
 }
