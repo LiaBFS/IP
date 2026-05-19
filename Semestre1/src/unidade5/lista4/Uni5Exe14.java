@@ -6,14 +6,14 @@ public class Uni5Exe14 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String nome;
+        //String nome;
         double PC=0, PV=0, totalC=0, totalV=0, lucroT=0, lucro;
         int menos10=0, entre1020=0, mais20=0;
 
         for(int i=1; i<=20; i++){
 
-            System.out.println("Nome do produto:");
-            nome =sc.next();
+            //System.out.println("Nome do produto:");
+            //nome =sc.next();
             System.out.println("Preço de compra:");
             PC = sc.nextDouble();
             System.out.println("Preço de venda:");
