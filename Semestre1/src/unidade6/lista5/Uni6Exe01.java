@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Uni6Exe01 {
 
     Scanner sc = new Scanner(System.in);
-    private int tamanho;
+    private int tamanho=10;
     private int[] num = new int[tamanho];
 
     public Uni6Exe01() {
@@ -13,7 +13,7 @@ public class Uni6Exe01 {
     }
 
     public void Ler(){
-        for(int i=1; i<=tamanho;i++){
+        for(int i=0; i<tamanho;i++){
             num[i] = sc.nextInt();
         }
     }

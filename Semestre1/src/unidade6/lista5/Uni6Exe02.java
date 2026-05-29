@@ -13,7 +13,7 @@ public class Uni6Exe02 {
     }
 
     public void lerValores(){
-        for(int i=1; i<=12; i++){
+        for(int i=0; i<12; i++){
             System.out.println("Digite um numero:");
             valores[i] = sc.nextDouble();
         }
@@ -21,14 +21,14 @@ public class Uni6Exe02 {
 
     public void calculaMedia(){
         double soma=0;
-        for(int i=1; i<=12; i++){
+        for(int i=0; i<12; i++){
             soma += valores[i];
         }
         media = soma/12;
     }
 
     public void listaValsMaior(){
-        for(int i=1;i<=12;i++){
+        for(int i=0;i<12;i++){
             if(valores[i]>media){
                 System.out.println("Valor "+valores[i]+" maior que a média "+media);
             }
