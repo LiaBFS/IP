@@ -3,46 +3,70 @@ package unidade6.lista5;
 import java.util.Scanner;
 
 public class Uni6Exe07 {
-
     private Scanner sc = new Scanner(System.in);
-    private int valor;
-    private int[] vetorOrigem;
-    private int[] vetorResultante;
+    private int tamanho;
+    private int[] vetor;
 
-    
+    private void lerTamanho() {
+        do {
+            System.out.println("Digite um valor: ");
+            tamanho = sc.nextInt();
+        } while (tamanho <= 0 || tamanho > 20);
 
-    public Uni6Exe07(int valor) {
-        this.valor = valor;
-
-        this.vetorOrigem = new int[valor];
+        vetor = new int[tamanho];
     }
 
-    public void inserirValores(){
-        int n;
-        for(int i=0;i<valor;i++){
-            do{
-                System.out.print("Preencha a posição "+i+ " do vetor: ");
-                n =sc.nextInt();
-                if(n!=vetorOrigem[i]){
-                    
-                }
+    private boolean valorExiste(int valor, int posicaoAtual) {
+        for (int i = 0; i < posicaoAtual; i++) {
+            if (vetor[i] == valor) {
+                return true;
+            }
+        }
+        return false;
+    }
 
-            } while (true);
+    private void inserirValores() {
+        int posicao = 0;
+
+        while (posicao < tamanho) {
+            System.out.println("Digite o valor " + posicao + ": ");
+            int valor = sc.nextInt();
+
+            if (valorExiste(valor, posicao)) {
+                System.out.println("Valor ja existe no vetor. Digite outro valor.");
+            } else {
+                vetor[posicao] = valor;
+                posicao++;
+            }
+        }
+    }
+
+    private void ordenarVetor() {
+        for (int i = 0; i < tamanho - 1; i++) {
+            for (int j = 0; j < tamanho - 1 - i; j++) {
+                if (vetor[j] > vetor[j + 1]) {
+                    int aux = vetor[j];
+                    vetor[j] = vetor[j + 1];
+                    vetor[j + 1] = aux;
+                }
+            }
+        }
+    }
+
+    private void informarVetor() {
+        System.out.println("Vetor ordenado:");
+
+        for (int i = 0; i < tamanho; i++) {
+            System.out.print("[" + vetor[i] + "]");
         }
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n;
-        do {
-            System.out.print("Digite o tamanho do vetor (1 a 20): ");
-            n = sc.nextInt();
-            if (n < 1 || n > 20) {
-                System.out.println("- Valor inválido -");
-            }
-        } while (n < 1 || n > 20);
-
-        Uni6Exe07 classe = new Uni6Exe07(n);
+        Uni6Exe07 exe07 = new Uni6Exe07();
+        exe07.lerTamanho();
+        exe07.inserirValores();
+        exe07.ordenarVetor();
+        exe07.informarVetor();
     }
 
     // Como funciona o Método Bolha (Bubble Sort)?
